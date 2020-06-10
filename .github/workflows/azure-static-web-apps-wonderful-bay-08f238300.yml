@@ -26,7 +26,7 @@ jobs:
       - name: Build App 
         run: |
          npm ci
-         npm run build --prod
+         npm run build
          cp -r dist-bazel/bin/src/prodapp dist
          ls -l dist
 
