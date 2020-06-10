@@ -74,6 +74,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngBazel"
+    }
+  },
+  "defaultProject": "ngBazel",
+  "cli": {
+    "analytics": false
+  }
 }
